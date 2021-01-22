@@ -12,7 +12,7 @@ body {
 #container {
     background: #ede9cc url(../img/bg-container.png) top center repeat-y;
     margin: 0 auto; /*Utilizado para centralizar o container*/
-    min-width: 740px;
+    min-width: 836px;
     max-width: 1180px;
 }
 
@@ -121,6 +121,11 @@ ul#navegacao {
  Area de conteudos 
 */
 
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
 #area-principal {
     float: left;
     width: 50%;
@@ -134,12 +139,61 @@ ul#navegacao {
     background: url(../img/bg-area-lateral.png) top left repeat-x;
     padding: 20px 0px;
 }
+/* Lista de recursos
+*/
+#lista-recursos li {
+    height: 6em;
+    padding: 8px;
+}
 
-.conteudo {
-    margin: 0 auto;
-    width: 90%;
+#lista-recursos li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+#lista-recursos li a{
+    padding: 10px;
+    float: left;
+    display: block;
+    border-bottom: 1px solid #f3efcb;
+    
+}
+
+#lista-recursos a h3 {
+    font-size: 1em;
+    padding: 5px 0;
+    background: url(../img/ornamento.png) center right no-repeat;
+    color: #615b2d;
+}
+
+#lista-recursos a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#lista-recursos a:hover {
+    background: #f6f3d6;
+    cursor: pointer;
 }
 
 #rodape {
     clear: both;
+    padding: 16px;
+    background: #fff url(../img/bg-rodape.png) repeat-x top; 
+    color: #7d7640;
+}
+
+/* Formatacoes de textos
+*/
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
